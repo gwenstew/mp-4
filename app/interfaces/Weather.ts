@@ -1,5 +1,5 @@
 export interface Weather {
-    datetime:number;
+    datetime:string;
     conditions:string;
     description:string;
     tempmin:number;

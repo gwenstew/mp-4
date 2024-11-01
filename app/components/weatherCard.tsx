@@ -6,7 +6,7 @@ const WeatherCardWrapper=styled.div`
     flex-direction: column;
     justify-content: center;
     padding: 1rem;
-    border 1px solid black;
+    border: 1px solid black;
     margin: 1rem;
     width: 200px;
     border-radius: 10px;
