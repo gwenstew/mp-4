@@ -9,7 +9,7 @@ export async function GET(request:Request): Promise<NextResponse>{
     const city = searchParams.get("city");
 
     if (!city){
-        return NextResponse.json({error: "Np [city] provided"}, {status:400});
+        return NextResponse.json({error: "No [city] provided"}, {status:400});
     }
 
     const res = await fetch(

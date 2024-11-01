@@ -12,7 +12,7 @@ const WeatherContentWrapper = styled.main`
     background-color: aquamarine;
 `;
 
-const CityName = styled.div`
+const CityName = styled.h1`
     color: blueviolet;
 `;
 
